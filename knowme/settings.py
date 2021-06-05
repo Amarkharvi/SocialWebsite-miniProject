@@ -25,7 +25,7 @@ SECRET_KEY = 'm+(^0!!+@c3(_cqwa$z_6_s**l-^3r&e^l%df6dhw(*%!fpv%v'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 import os
-ALLOWED_HOSTS = ['127.0.0.1','114fb951640e.ngrok.io']
+ALLOWED_HOSTS = ['127.0.0.1','211585f36034.ngrok.io']
 
 
 # Application definition
@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'crispy_forms',
     'sorl.thumbnail',
+    'django_extensions',
 ]
 
 CRISPY_TEMPLATE_PACK ='bootstrap4'
